@@ -3553,29 +3553,3 @@ img {
     position: absolute;
     right: 0;
 }
-
-.pagination {
-    display: float;
-    margin-top: 10px;
-    background-color:darkseagreen;
-}
-.pagination a {
-position: relative;
-display: block;
-padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
-font-size: var(--bs-pagination-font-size);
-color: blue;
-text-decoration: none;
-background-color: white;
-border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-.pagination a.active {
-    background-color: white;
-    color: white;
-    border: 1px solid #4CAF50;
-}
-
-.pagination a:hover:not(.active) {
-    background-color: rgb(0 0 0/10%);
